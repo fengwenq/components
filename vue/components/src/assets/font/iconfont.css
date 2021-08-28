@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'fw-icons';  /* Project id 2772992 */
+    src: url('//at.alicdn.com/t/font_2772992_eldtvte7qc.woff2?t=1630045462586') format('woff2'),
+         url('//at.alicdn.com/t/font_2772992_eldtvte7qc.woff?t=1630045462586') format('woff'),
+         url('//at.alicdn.com/t/font_2772992_eldtvte7qc.ttf?t=1630045462586') format('truetype');
+  }
+
+   [class^="fw-icon-"], [class*=" fw-icon-"]{
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'fw-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: baseline;
+    display: inline-block;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .fw-icon-sousuo:before {
+    content: "\e635";
+  }
+
+  .fw-icon-renyuan:before {
+    content: "\e634";
+  }
